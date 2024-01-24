@@ -36,6 +36,8 @@ mod tests {
         // TODO: Fix this test. How do you get at the value contained in the
         // Option?
         let icecreams = maybe_icecream(12).unwrap();
+        println!("Icecream in the fridges is {}",icecreams);
+
         assert_eq!(icecreams, 5);
     }
 }
